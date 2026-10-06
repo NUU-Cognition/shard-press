@@ -1,0 +1,14 @@
+shard-spec: "0.4.0"
+shard: "@nuucognition/press"
+id: 2c082a6c-6b02-4c9e-9593-1935816c3fcc
+source:
+  id: cd926627-7955-4ea6-b607-82169e3a576b
+version: "0.1.0"
+name: Press
+shorthand: press
+description: Render a Mesh markdown artifact into a branded A4 HTML document and PDF
+dependencies:
+  - source: NUU-Cognition/shard-flint
+setup: local
+folders:
+  - Exports
